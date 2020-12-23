@@ -24,9 +24,9 @@ window.addEventListener("load" , function(){
 })
 
 function burgerNav(){
-    if(navBarSlide.classList.contains("active")){
+    if( window.innerWidth<=710 && navBarSlide.classList.contains("active")){
         navBarSlide.classList.remove("active");
-    }else{
+    }else if(window.innerWidth<=710){
         navBarSlide.classList.add("active");
     }
 
