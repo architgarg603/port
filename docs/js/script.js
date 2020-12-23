@@ -33,7 +33,6 @@ function burgerNav(){
 }
 
 document.addEventListener("scroll", function(){
-console.log( window.pageYOffset);
 
     if(window.pageYOffset>380 && window.pageYOffset<1150){
         navBar[1].classList.add("hcurr");
@@ -58,37 +57,7 @@ console.log( window.pageYOffset);
     }
 
 
-    if(window.innerWidth<=540 &&  window.pageYOffset>350 && window.pageYOffset<800){
-        navBarSlideA[1].classList.add("vcurr");
-        navBarSlideA[2].classList.remove("vcurr");
-    }else  if(window.innerWidth<=540 &&  window.pageYOffset>800 && window.pageYOffset<2820){
-        navBarSlideA[1].classList.remove("vcurr");
-        navBarSlideA[3].classList.remove("vcurr");
-        navBarSlideA[2].classList.add("vcurr");
-        
-    }else  if(window.innerWidth<=540 && window.pageYOffset>2820 && window.pageYOffset<4030){
-        navBarSlideA[2].classList.remove("vcurr");
-        navBarSlideA[4].classList.remove("vcurr");
-        navBarSlideA[3].classList.add("vcurr");
-        
-    }else  if(window.innerWidth<=540 && window.pageYOffset>6170){
-        navBarSlideA[3].classList.remove("vcurr");
-        navBarSlideA[4].classList.add("vcurr");
-        
-    }else{
-        
-        navBarSlideA[1].classList.remove("vcurr");
-    }
-    if(window.innerWidth<=280 && window.pageYOffset>2820 && window.pageYOffset<6672){
-        navBarSlideA[2].classList.remove("vcurr");
-        navBarSlideA[4].classList.remove("vcurr");
-        navBarSlideA[3].classList.add("vcurr");
-        
-    }else  if(window.innerWidth<=280 && window.pageYOffset>6672){
-        navBarSlideA[3].classList.remove("vcurr");
-        navBarSlideA[4].classList.add("vcurr");
-        
-    }
+    
 
     // =============== slide nav =================
     if(window.innerWidth>1024 && window.pageYOffset<1200){
