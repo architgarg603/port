@@ -395,7 +395,7 @@ list-style:none;
     transition: background 0.6s;
 }
 .pro:hover{
-    background-color: #feab00;
+    background-color: #feab00 !important;
 }
 .pro:hover .pro-logo i, .pro:hover a{
     color: #E4E4E4;
