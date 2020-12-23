@@ -501,6 +501,10 @@ list-style:none;
     margin: 0px 50px;
 }
 
+.c3 .con-detail{
+    max-width: 90%;
+    word-wrap: break-word;
+}
 .con-logo{
     color: #feab00;
     font-size: xxx-large;
