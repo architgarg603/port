@@ -52,6 +52,11 @@ body{
 }
 .burger-nav{
     display: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
 .nav-btn{
     width: 40%;
