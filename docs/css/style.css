@@ -633,7 +633,7 @@ margin-bottom: 30px;
 }
 
 .fl2 li:before {
-    content:  "\f178";
+    content:  "➜";
     color:#E4E4E4;
     display: inline-block; 
     width: 1em;
