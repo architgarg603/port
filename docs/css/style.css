@@ -18,9 +18,7 @@ body{
 .active{
     display: block !important;
 }
-#downloadCV{
-    display: none;
-}
+
 .bk-anime{
     position: absolute;
     z-index: -1;
