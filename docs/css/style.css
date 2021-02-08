@@ -409,7 +409,7 @@ list-style:none;
 .pro:hover .head, .pro:hover .stack,.pro:hover .des{
     color: black;
 } 
-.l1,.l2,.l3{
+.l1,.l2,.l3,.l{
     display: flex;
     justify-content: center;
 }
@@ -468,7 +468,7 @@ list-style:none;
     margin-top: 15px;
 }
 
-.projects .l2,.l3{
+.projects .l2,.l3,.l1{
     margin-top: 30px;
 }
 

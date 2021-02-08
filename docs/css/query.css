@@ -238,7 +238,7 @@
         width: 85%;
     }
 
-    .projects .l1,.projects  .l2,.projects  .l3 {
+    .projects .l1,.projects  .l2,.projects  .l3, .projects .l {
         display: block;
         margin: auto;
         width: 85%;
